@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { Box, Heading, Text, Link as ChakraLink } from "@chakra-ui/react"; // Assuming Chakra UI for styling
 
 function RepoItem({ repo }) {
