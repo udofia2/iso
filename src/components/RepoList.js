@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom"; // Import for routing
+import { useNavigate } from "react-router-dom"; // Import for routing
 import {
   Box,
   Flex,
-  Text,
-  Spinner,
-  Center,
   UnorderedList,
   ListItem,
 } from "@chakra-ui/react";
@@ -19,7 +16,7 @@ function RepoList() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const PER_PAGE = 10; // Constant for readability
+  // const PER_PAGE = 10; // Constant for readability
   const navigate = useNavigate(); // Access useNavigate hook
 
   useEffect(() => {

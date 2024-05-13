@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, List, ListItem, Badge } from "@chakra-ui/react";
+import { Box, Heading, Text, List, ListItem } from "@chakra-ui/react";
 
 function SingleRepo({ repo }) {
   const { name, description, language, stargazers_count, forks_count } = repo;
